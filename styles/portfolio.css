@@ -1,0 +1,115 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* header background img */
+.header-background {
+  background-image: url('../images/developer.png'),url('../images/header_bg.png');
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+
+
+nav {
+  /* navigation bar <nav> styles lekha k horizenta borabor ane */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 200px;
+
+}
+
+/* Mary "r" span class use color resize */
+.text-resize {
+  color: #FD6E0A;
+}
+
+
+
+
+/* heading h3 er title  */
+.nav-title {
+  /* heading h3 er title  */
+  font-weight: 800;
+  font-size: 45px;
+}
+
+/* list theke bulet remove kore */
+nav ul li {
+  /* list theke bulet remove kore */
+  list-style: none;
+
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+
+nav li a {
+  /* text er underline dag remove kore */
+  text-decoration: none;
+  margin-right: 51px;
+
+  /* a gula ace tar font size change */
+  font-size: 20px;
+
+}
+
+/* banner content er size */
+.banner-content {
+  height: 356px;
+  width: 585px;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 35px 0 230px;
+
+
+}
+
+/* banner styles */
+.banner-title {
+  font-size: 45px;
+  font-weight: 600;
+
+
+}
+
+
+/* banner text resize */
+.banner-description {
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.banner-owner {
+  font-weight: bold;
+  font-size: 85px;
+}
+
+.owner-img {
+  height: 676px;
+  width: 584px;
+}
+
+.dark-2 {
+  color: #474747;
+}
+
+.btn-primary {
+  background-color: #FD6E0A;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  padding: 18px 36px 19px 35px;
+  border-radius: 5px;
+  border: none;
+}
