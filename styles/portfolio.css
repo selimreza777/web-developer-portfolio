@@ -6,12 +6,19 @@
     "wdth" 100;
 }
 
+
 /* header background img */
 .header-background {
-  background-image: url('../images/developer.png'),url('../images/header_bg.png');
+  background-image: url('../images/developer.png'), url('../images/header_bg.png');
   background-repeat: no-repeat;
   background-position: top left, bottom right;
 }
+
+.secondary-bg {
+  background-color: #fff8f3;
+
+}
+
 
 
 nav {
@@ -112,4 +119,38 @@ nav li a {
   padding: 18px 36px 19px 35px;
   border-radius: 5px;
   border: none;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 35px;
+  color: #181818;
+}
+
+.section-description {
+  color: #757575;
+  font-size: 18px;
+}
+
+/* About styles */
+.about {
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+}
+
+.about-item-flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* main styles */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 130px 150px;
+}
+
+.item-description {
+  font-weight: 600;
 }
